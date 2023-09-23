@@ -62,7 +62,7 @@ app.post('/cadastrar', async (req, res) => {
     }
 });
 
-app.get('/empresa', async (_req, res) => {
+app.get('/listar', async (_req, res) => {
     const empresa = await prisma.empresa.findMany({});
 
     res.status(200).json(empresa);
