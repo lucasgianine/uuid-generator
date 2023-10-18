@@ -6,7 +6,7 @@ Consumindo a API de gerar UUIDs dentro de uma API REST conectada com banco de da
 npm install
 ```
 
-### 2. Crie um container no Docker (port 5533)
+### 2. Crie um container no Docker (porta 5533)
 ```bash
 docker compose up
 ```
